@@ -127,3 +127,13 @@ The initial Base-based MVP should demonstrate the core idea of patient-controlle
 - Cross-contract validation through the orchestrator layer
 
 This MVP focuses on core trust, access control, privacy, and auditability rather than replacing full legacy healthcare systems.
+
+### Deployed Contract Addresses
+**PatientPassportRegistry:** `0x4fd6EB270CbF4C430E38f6559DaBA77555a648C7` Manages patient health passport identities
+
+**ProviderRegistry:** `0x0f5D06446D3544dE1fB37090d9Bf58988Afb2c09` Manages healthcare provider registrations
+
+**MedicalRecordRegistry:** `0x825caf2E7a82D33D600dcB5bbFE535F635E28b59` Stores encrypted medical record hashes on-chain
+
+**ConsentAccessManager:** `0xb157945fC9ca17E56299a0280E9a04cEbbdd68Ac` Controls patient consent and provider data access
+
